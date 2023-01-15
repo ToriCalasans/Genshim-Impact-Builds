@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../styles/template.css">
+    
+
+</head>
+
+<body>
+    <div class="col-md-6 m-auto cadastros">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputNomePersonagem" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputNomePersonagem">
+            </div>
+            <div class="col-md-6">
+                <label for="inputElementoPersonagem" class="form-label">Elemento</label>
+                <select id="inputElementoPersonagem" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Pyro</option>
+                    <option>Electro</option>
+                    <option>Hydro</option>
+                    <option>Hydro</option>
+                    <option>Geo</option>
+                    <option>Anemo</option>
+                    <option>Cryo</option>
+                    <option>Dendro</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="inputRaridadePersonagem" class="form-label">Raridade</label>
+                <select id="inputRaridadePersonagem" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>5 Estrelas</option>
+                    <option>4 Estrelas</option>
+                </select>
+            </div>
+            <div class="col-md-9">
+                <div class="mb-3">
+                    <label for="basic-url" class="form-label">Your vanity URL</label>
+                    <div class="input-group">
+                        <span class="input-group-text" for="inputImagemPersonagem">https://example.com</span>
+                        <input type="text" class="form-control" id="inputImagemPersonagem" aria-describedby="basic-addon3">
+                    </div>
+                    <div class="form-text">Example help text goes outside the input group.</div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <span class="input-group-text" for="inputDescricaoPersonagem">Descrição</span>
+                <textarea class="form-control" aria-label="With textarea" id="inputDescricaoPersonagem"></textarea>
+            </div>
+
+
+            <div class="col-12">
+                <button type="submit" onclick="enviar()" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script>
+
+    </script>
+</body>
+
+</html>

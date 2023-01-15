@@ -1,0 +1,15 @@
+.cadastros{
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 100px;
+}
+body  {
+    background-image: url("../images/wallpapers/genshim.gif");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+  }
